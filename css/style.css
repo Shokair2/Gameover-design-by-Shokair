@@ -1,0 +1,63 @@
+
+ 
+ body {
+    font-family: "Comfortaa", cursive;
+    min-height: 100%;
+    min-width: 100%;
+   background:  #272B30;
+   color: white;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a,
+ span {
+    font-family: "Nerko One", cursive;
+    color:white !important;
+ }
+ 
+ /* a,
+ span {
+    color: inherit !important;
+ } */
+ 
+ ul {
+    list-style-position: inside;
+ }
+ 
+ .nav-bg {
+    background-color: #272B30;
+ }
+ .nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+   color: #09c !important;
+   transition: color 0.5s;
+}
+ .card {
+   filter: grayscale(0.7);
+   transition: transform 0.5s, filter 0.5s 0.1s;
+}
+
+ .card:hover {
+   transform: scale(1.05);
+   filter: grayscale(0);
+}
+  .navbar {
+   color: white !important;
+  }
+
+  header  img{
+   height: 30vh;
+   object-fit: cover;
+  }
+  .navbar{
+   background-color:#3A497B;
+  }
+  .back{
+   color: yellow !important;
+  }
